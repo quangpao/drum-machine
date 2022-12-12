@@ -3967,6 +3967,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bootstrap@npm:^5.2.3":
+  version: 5.2.3
+  resolution: "bootstrap@npm:5.2.3"
+  peerDependencies:
+    "@popperjs/core": ^2.11.6
+  checksum: 0211805dec6a190c0911d142966df30fdb4b4139a04cc6c23dd83c6045ea3cb0a966b360ab2e701e7b3ad96ff01e05fdc0914be97b41bd876b11e457a8bdc6a3
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -5250,6 +5259,7 @@ __metadata:
     "@testing-library/jest-dom": ^5.14.1
     "@testing-library/react": ^13.0.0
     "@testing-library/user-event": ^13.2.1
+    bootstrap: ^5.2.3
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
