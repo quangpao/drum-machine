@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -38,7 +38,7 @@ class DrumMachine extends React.Component {
         display: parentId
       })
     }
-    
+
   }
 
   render() {
@@ -50,59 +50,65 @@ class DrumMachine extends React.Component {
           </div>
         </div>
         <div className='keypad-container row'>
-          <div className='btn btn-secondary drum-pad col-4' 
-                id='Heater-1' 
-                onClick={this.handleClick}>
-            <audio className='clip' id='Q' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3'></audio>
-            Q
+          <div className='row'>
+            <div className='btn btn-secondary drum-pad col-3'
+              id='Heater-1'
+              onClick={this.handleClick}>
+              <audio className='clip' id='Q' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3'></audio>
+              Q
+            </div>
+            <div className='btn btn-secondary drum-pad col-3'
+              id='Heater-2'
+              onClick={this.handleClick}>
+              <audio className='clip' id='W' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3'></audio>
+              W
+            </div>
+            <div className='btn btn-secondary drum-pad col-3'
+              id='Heater-3'
+              onClick={this.handleClick}>
+              <audio className='clip' id='E' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3'></audio>
+              E
+            </div>
           </div>
-          <div className='btn btn-secondary drum-pad col-4' 
-                id='Heater-2' 
-                onClick={this.handleClick}>
-            <audio className='clip' id='W' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3'></audio>
-            W
+          <div className='row'>
+            <div className='btn btn-secondary drum-pad col-3'
+              id='Heater-4'
+              onClick={this.handleClick}>
+              <audio className='clip' id='A' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3'></audio>
+              A
+            </div>
+            <div className='btn btn-secondary drum-pad col-3'
+              id='Clap'
+              onClick={this.handleClick}>
+              <audio className='clip' id='S' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3'></audio>
+              S
+            </div>
+            <div className='btn btn-secondary drum-pad col-3'
+              id='Open-HH'
+              onClick={this.handleClick}>
+              <audio className='clip' id='D' src='https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3'></audio>
+              D
+            </div>
           </div>
-          <div className='btn btn-secondary drum-pad col-4' 
-                id='Heater-3' 
-                onClick={this.handleClick}>
-            <audio className='clip' id='E' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3'></audio>
-            E
-          </div>
-          <div className='btn btn-secondary drum-pad col-4' 
-                id='Heater-4' 
-                onClick={this.handleClick}>
-            <audio className='clip' id='A' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3'></audio>
-            A
-          </div>
-          <div className='btn btn-secondary drum-pad col-4' 
-                id='Clap' 
-                onClick={this.handleClick}>
-            <audio className='clip' id='S' src='https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3'></audio>
-            S
-          </div>
-          <div className='btn btn-secondary drum-pad col-4' 
-                id='Open-HH' 
-                onClick={this.handleClick}>
-            <audio className='clip' id='D' src='https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3'></audio>
-            D
-          </div>
-          <div className='btn btn-secondary drum-pad col-4' 
-                id="Kick-n'-Hat" 
-                onClick={this.handleClick}>
-            <audio className='clip' id='Z' src='https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3'></audio>
-            Z
-          </div>
-          <div className='btn btn-secondary drum-pad col-4' 
-                id='Kick' 
-                onClick={this.handleClick}>
-            <audio className='clip' id='X' src='https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3'></audio>
-            X
-          </div>
-          <div className='btn btn-secondary drum-pad col-4' 
-                id='Closed-HH' 
-                onClick={this.handleClick}>
-            <audio className='clip' id='C' src='https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3'></audio>
-            C
+          <div className='row'>
+            <div className='btn btn-secondary drum-pad col-3'
+              id="Kick-n'-Hat"
+              onClick={this.handleClick}>
+              <audio className='clip' id='Z' src='https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3'></audio>
+              Z
+            </div>
+            <div className='btn btn-secondary drum-pad col-3'
+              id='Kick'
+              onClick={this.handleClick}>
+              <audio className='clip' id='X' src='https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3'></audio>
+              X
+            </div>
+            <div className='btn btn-secondary drum-pad col-3'
+              id='Closed-HH'
+              onClick={this.handleClick}>
+              <audio className='clip' id='C' src='https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3'></audio>
+              C
+            </div>
           </div>
         </div>
       </div>

@@ -18,4 +18,16 @@ code {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  text-align: center;
+}
+
+
+
+.drum-pad {
+  height: 100px;
+  font-size: 3em;
+  margin: 4px;
+  background-color: grey;
+  margin-top: 10px;
+  box-shadow: black 3px 3px 5px;
 }
